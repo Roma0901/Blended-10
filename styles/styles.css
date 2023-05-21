@@ -1,5 +1,8 @@
-body{
-    background: #E5E5E5;
+body {
+  font-family: "Inter", sans-serif;
+  background: #e5e5e5;
+  width: 1280px;
+  margin: auto;
 }
 .list {
   list-style: none;
@@ -39,9 +42,93 @@ img {
   clip: rect(0 0 0 0);
   overflow: hidden;
 }
+
+.header-item {
+  position: absolute;
+  top: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 1280px;
+  height: 72px;
+  background: linear-gradient(
+    90.03deg,
+    rgba(0, 197, 235, 0.3) -1.97%,
+    rgba(181, 68, 254, 0.3) 89.43%
+  );
+}
+.header-list {
+  display: flex;
+  padding-right: 16px;
+  gap: 40px;
+}
+.link-logo {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 28px;
+  line-height: 34px;
+  color: #ffffff;
+  padding-left: 16px;
+}
+.link-item {
+  font-family: "Inter";
+  font-style: normal;
+  font-size: 12px;
+  line-height: 15px;
+  color: #ffffff;
+}
+.hero {
+  background: #06071b;
+  width: 1280px;
+  height: 744px;
+}
+.hero-title {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 48px;
+  color: #ffffff;
+}
+.hero-desc {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 24px;
+  color: #ffffff;
+}
+.hero-desc-list {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+  color: #ffffff;
+}
+.hero-info {
+  padding-top: 240px;
+}
+.hero-button {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 19px;
+  color: #ffffff;
+  padding: 11px 60px;
+  border: none;
+  display: block;
+  min-width: 169px;
+  height: 56px;
+  background: linear-gradient(90.03deg, #00c5eb -1.97%, #b544fe 89.43%);
+  border-radius: 5px;
+}
+
 .section {
   padding: 40px 150px 0 143px;
-  width: 1280px;
+
   height: 878px;
   margin: auto;
 }
@@ -58,7 +145,6 @@ img {
   text-align: center;
   color: #000000;
   margin-bottom: 80px;
-  
 }
 .feature-desc-main {
   font-family: "Inter";
@@ -95,11 +181,11 @@ img {
   line-height: 17px;
   color: #000000;
 }
-.feature-item{
-    margin-bottom: 12px;
+.feature-item {
+  margin-bottom: 12px;
 }
-.list-features{
-    display: flex;
-    flex-direction: column;
-    gap: 54px;
+.list-features {
+  display: flex;
+  flex-direction: column;
+  gap: 54px;
 }
