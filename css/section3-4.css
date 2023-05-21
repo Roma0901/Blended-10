@@ -5,10 +5,209 @@
     padding-right: 16px;
 }
 
-ul {
+
+h1,
+h2,
+h3,
+h4,
+p {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+ul,
+ol {
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-left: 0;
     list-style: none;
+
+}
+
+img {
+    display: block;
+    max-width: 100%;
+    height: auto;
 }
 
 a {
     text-decoration: none;
+}
+
+/* section-3 */
+
+.section-video {
+    background-color: rgba(6, 7, 27, 1);
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+.container-section-section {
+    display: flex;
+
+
+
+}
+
+
+.container-section-video {}
+
+.section-video-title {
+    font-family: 'Inter';
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 1.2;
+    color: #FFFFFF;
+
+    margin-bottom: 20px;
+}
+
+.section-video-text {
+    font-family: 'Inter';
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.18;
+    color: #FFFFFF;
+
+    width: 480px;
+    margin-bottom: 40px;
+}
+
+.video-list {
+    display: flex;
+
+    gap: 20px;
+}
+
+.video-item {}
+
+.video-link {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background-image: linear-gradient(rgba(0, 197, 235, 1), rgba(181, 68, 254, 1));
+}
+
+.customers-list-icon {
+
+    fill: #FFFFFF;
+}
+
+/* Photo */
+
+.container-img {
+    margin-left: 160px;
+}
+
+.photo-section {}
+
+
+
+/* OUR-TEAM */
+
+.section-team {
+
+    background-image: linear-gradient(rgba(0, 197, 235, 0.25), rgba(181, 68, 254, 0.25));
+}
+
+.conteiner-team {
+
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    padding-top: 80px;
+}
+
+
+
+.section-team-title {
+    font-family: 'Inter';
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 1.2;
+    color: #000000;
+
+    text-align: center;
+    margin-bottom: 80px;
+
+
+
+}
+
+.section-team-text {
+    font-family: 'Inter';
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #000000;
+
+    text-align: center;
+    width: 890px;
+    margin-bottom: 60px;
+}
+
+.section-team-list {
+    display: flex;
+    gap: 32px;
+}
+
+.section-team-item {}
+
+.container-team {
+    max-width: 288px;
+    max-height: 364px;
+    border-radius: 15px;
+    padding: 12px 12px;
+}
+
+.team-david {
+
+    background: linear-gradient(312.87deg, rgba(0, 197, 235, 0.5) -0.2%, rgba(181, 68, 254, 0.5) 112.66%), #06071B;
+}
+
+.team-rachel {
+    background: linear-gradient(105.09deg, rgba(0, 197, 235, 0.5) -13.66%, rgba(181, 68, 254, 0.5) 104.34%), #06071B;
+}
+
+.team-samantha {
+    background: linear-gradient(176.56deg, rgba(0, 197, 235, 0.5) 4.33%, rgba(181, 68, 254, 0.5) 116.56%), #06071B;
+}
+
+.team-andrew {
+    background: linear-gradient(313.81deg, rgba(0, 197, 235, 0.5) -7.83%, rgba(181, 68, 254, 0.5) 83.61%), #06071B;
+}
+
+.section-team-img {
+    border-radius: 4px;
+}
+
+.container-text-title {
+    font-family: 'Inter';
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 1.22;
+    color: #FFFFFF;
+
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 12px;
+}
+
+.container-text-subtitle {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.71;
+    color: #FFFFFF;
+
+    text-align: center;
+
 }
